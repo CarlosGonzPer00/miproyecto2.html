@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cabacera{
+    width: 100%;
+}
+.div-menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: rgb(177, 174, 174);
+}
+.boton{
+    background-color: blue;
+    color: white;
+    border-color: black;
+    margin: 5px 5px 5px 5px;
+    text-decoration: none;
+}
+section h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+section p{
+    text-align: justify;
+}
+.img-cuadrada{
+    float: right;
+}
+.img-horizontal{
+    display: flex;
+    flex direction: column;
+    width: 100%;
+}
